@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.coredreams.myapplication.LoginActivity">
+    
+    <ImageView
+        android:layout_width="122dp"
+        android:src="@drawable/splash_screen_logo"
+        android:layout_marginTop="71px"
+        android:layout_gravity="center"
+        android:layout_height="89dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:text="Login to your Account"
+        android:layout_marginTop="22dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundemail"
+        android:textSize="14sp"
+        android:hint="Email Address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundemail"
+        android:textSize="14sp"
+        android:hint="Password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:text="Forgotten Your Password?"
+        android:layout_marginTop="18dp"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="61dp"
+    android:text="Login"
+    android:layout_marginLeft="53dp"
+    android:layout_marginRight="54dp"
+    android:textColor="#fff"
+    android:background="@drawable/createaccountrounded"
+    android:textAllCaps="true"
+    android:layout_marginTop="104dp"/>
+</LinearLayout>
